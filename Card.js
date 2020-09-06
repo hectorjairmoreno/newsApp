@@ -1,13 +1,15 @@
 import React from "react";
-import { Button } from "react-native";
+import { View, StyleSheet } from "react-native";
 import styled from "styled-components";
 
 const Card = (props) => (
   <Container style={{ elevation: 10 }}>
     <Cover>
       <Image source={{ uri: props.image }} />
-      <Title onPress={props.onPress}>{props.title}</Title>
-      <Title onPress={props.onPress}>Click this text to go to site</Title>
+      <View style={styles.child}>
+        <Title onPress={props.onPress}>{props.title}</Title>
+        <Title onPress={props.onPress}>Click this text to go to site</Title>
+      </View>
     </Cover>
   </Container>
 );
@@ -51,3 +53,10 @@ const Title = styled.Text`
   width: 300px;
   box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.8);
 `;
+
+const styles = StyleSheet.create({
+  child: {
+    flex: 1,
+    backgroundColor: "rgba(0,0,0,0.5)",
+  },
+});
