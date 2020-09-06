@@ -16,7 +16,7 @@ export default Card;
 
 const Container = styled.View`
   background: black;
-  width: 350px;
+  width: 95%;
   height: 280px;
   border-radius: 14px;
   margin: 20px 10px;
@@ -24,7 +24,7 @@ const Container = styled.View`
 `;
 
 const Cover = styled.View`
-  width: 350px;
+  width: 100%;
   height: 280px;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
