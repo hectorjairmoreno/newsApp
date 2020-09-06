@@ -1,1 +1,1 @@
-This is is free open source software, clone it, run away with it.
+This is copy righted material made by Hector Moreno Gomez made in 2020.
