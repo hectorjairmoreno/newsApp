@@ -1,65 +1,58 @@
-import React, { useState } from "react";
-import { View, Linking } from "react-native";
-import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import React from "react";
+import { ScrollView, StyleSheet, Linking } from "react-native";
+
+import { url } from "./url";
 import axios from "axios";
-import "bootstrap/dist/css/bootstrap.min.css";
-export default function App() {
-  const [data, setData] = useState([]);
-  async function retrieveData() {
+import Card from "./Card";
+import styled from "styled-components";
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: [],
+    };
+  }
+
+  async componentDidMount() {
     try {
-      const url =
-        "http://newsapi.org/v2/top-headlines?" +
-        "country=us&" +
-        "apiKey=1d02c3b288344c9db8d4d86966f8412c";
-
-      const data = await axios(url);
-      setData(data.data.articles);
-    } catch (e) {
-      throw new Error(e);
-    }
+      const res = await axios(url);
+      this.setState({ data: res.data.articles });
+    } catch (e) {}
   }
 
-  React.useEffect(() => {
-    retrieveData();
-  }, []);
-
-  function redirect(url) {
+  openLink = (url) => {
     Linking.openURL(url);
-  }
+  };
 
-  return (
-    <View>
-      <Container>
-        <Row>
-          <Col>
-            {data.length > 0
-              ? data.map((article, index) => {
-                  return (
-                    <Card
-                      key={index}
-                      style={{
-                        width: "100%",
-                        textAlign: "center",
-                      }}
-                    >
-                      <Card.Img variant="top" src={article.urlToImage} />
-                      <Card.Body>
-                        <Card.Title>{article.title}</Card.Title>
-                        <Card.Text>{article.description}</Card.Text>
-                        <Button
-                          variant="primary"
-                          onClick={redirect.bind(this, article.url)}
-                        >
-                          Go to site
-                        </Button>
-                      </Card.Body>
-                    </Card>
-                  );
-                })
-              : null}
-          </Col>
-        </Row>
-      </Container>
-    </View>
-  );
+  render() {
+    const { data } = this.state;
+    const finalData = data.filter((d) => {
+      if (d.urlToImage) return d.urlToImage;
+    });
+    return (
+      <ScrollView style={styles.scrollView}>
+        {finalData.length > 0
+          ? finalData.map((card, index) => {
+              return (
+                <Card
+                  key={index}
+                  image={card.urlToImage}
+                  title={card.title}
+                  onPress={this.openLink.bind(this, card.url)}
+                />
+              );
+            })
+          : null}
+      </ScrollView>
+    );
+  }
 }
+
+const styles = StyleSheet.create({
+  scrollView: {
+    marginHorizontal: 20,
+  },
+});
+
+export default App;
