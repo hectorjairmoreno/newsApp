@@ -1,14 +1,13 @@
 {
   "expo": {
-    "name": "newsapp",
+    "name": "News App",
     "slug": "newsapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/newsapp.png",
     "splash": {
-      "image": "./assets/newsapp.png",
-      "resizeMode": "cover",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/newsappsplash.png",
+      "resizeMode": "cover"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -19,6 +18,9 @@
     },
     "web": {
       "favicon": "./assets/newsapp.png"
+    },
+    "android": {
+      "package": "com.hmg701.newsapp"
     }
   }
 }
