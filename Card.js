@@ -7,8 +7,10 @@ const Card = (props) => (
     <Cover>
       <Image source={{ uri: props.image }} />
       <View style={styles.child}>
-        <Title onPress={props.onPress}>{props.title}</Title>
-        <Title onPress={props.onPress}>Click this text to go to site</Title>
+        <Title onPress={props.onPress}>
+          {props.title}
+          {"\n"} Click image to see more
+        </Title>
       </View>
     </Cover>
   </Container>
@@ -46,11 +48,12 @@ const Image = styled.Image`
 
 const Title = styled.Text`
   color: white;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   margin-top: 10px;
   margin-left: 20px;
-  width: 300px;
+  width: 85%;
+  height: 100%;
   box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.8);
 `;
 
