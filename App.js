@@ -8,11 +8,11 @@ import {
 
 import {
   url,
-  urlTechAndroid,
-  urlTechApple,
+  urlFood,
   urlTechApplePopular,
   urlSciencePopular,
   urlTechAndroidPopular,
+  urlShopping,
 } from "./url";
 import axios from "axios";
 import Card from "./Card";
@@ -29,11 +29,11 @@ class App extends React.Component {
   async componentDidMount() {
     try {
       const res = await axios(url);
-      const resApple = await axios(urlTechApple);
       const resApplePopular = await axios(urlTechApplePopular);
-      const resAndroid = await axios(urlTechAndroid);
+      const resFood = await axios(urlFood);
       const resAndroidPopular = await axios(urlTechAndroidPopular);
       const resScience = await axios(urlSciencePopular);
+      const resShopping = await axios(urlShopping);
 
       this.setState({
         data: [
@@ -41,12 +41,12 @@ class App extends React.Component {
           ...resApplePopular.data.articles,
           ...resAndroidPopular.data.articles,
           ...resScience.data.articles,
-          ...resApple.data.articles,
-          ...resAndroid.data.articles,
+          ...resFood.data.articles,
+          ...resShopping.data.articles,
         ],
       });
     } catch (e) {
-      console.log(e, "error");
+      throw new Error(e);
     }
   }
 
