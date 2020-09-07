@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Text } from "react-native";
 import styled from "styled-components";
 
 const Card = (props) => (
@@ -7,10 +7,8 @@ const Card = (props) => (
     <Cover>
       <Image source={{ uri: props.image }} />
       <View style={styles.child}>
-        <Title onPress={props.onPress}>
-          {props.title}
-          {"\n"} Click image to see more
-        </Title>
+        <TitleUp>Click image to see more</TitleUp>
+        <Title onPress={props.onPress}>{props.title}</Title>
       </View>
     </Cover>
   </Container>
@@ -54,6 +52,15 @@ const Title = styled.Text`
   margin-left: 20px;
   width: 85%;
   height: 100%;
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.8);
+`;
+
+const TitleUp = styled.Text`
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  text-align: center;
   box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.8);
 `;
 
