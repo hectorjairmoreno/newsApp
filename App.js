@@ -6,7 +6,14 @@ import {
   ActivityIndicator,
 } from "react-native";
 
-import { url } from "./url";
+import {
+  url,
+  urlTechAndroid,
+  urlTechApple,
+  urlTechApplePopular,
+  urlSciencePopular,
+  urlTechAndroidPopular,
+} from "./url";
 import axios from "axios";
 import Card from "./Card";
 import styled from "styled-components";
@@ -22,8 +29,25 @@ class App extends React.Component {
   async componentDidMount() {
     try {
       const res = await axios(url);
-      this.setState({ data: res.data.articles });
-    } catch (e) {}
+      const resApple = await axios(urlTechApple);
+      const resApplePopular = await axios(urlTechApplePopular);
+      const resAndroid = await axios(urlTechAndroid);
+      const resAndroidPopular = await axios(urlTechAndroidPopular);
+      const resScience = await axios(urlSciencePopular);
+
+      this.setState({
+        data: [
+          ...res.data.articles,
+          ...resApplePopular.data.articles,
+          ...resAndroidPopular.data.articles,
+          ...resScience.data.articles,
+          ...resApple.data.articles,
+          ...resAndroid.data.articles,
+        ],
+      });
+    } catch (e) {
+      console.log(e, "error");
+    }
   }
 
   openLink = (url) => {
