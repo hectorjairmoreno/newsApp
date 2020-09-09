@@ -13,6 +13,20 @@ import {
   urlSciencePopular,
   urlTechAndroidPopular,
   urlShopping,
+  urlMicrosoft,
+  urlTechnology,
+  urlLockheedMartin,
+  urlPolitics,
+  urlMovies,
+  urlClothes,
+  urlTravel,
+  urlPlayStation,
+  urlNintendo,
+  urlXbox,
+  urlCars,
+  urlWalmart,
+  urlAmazon,
+  urlStartUps,
 } from "./url";
 import axios from "axios";
 import Card from "./Card";
@@ -34,6 +48,20 @@ class App extends React.Component {
       const resAndroidPopular = await axios(urlTechAndroidPopular);
       const resScience = await axios(urlSciencePopular);
       const resShopping = await axios(urlShopping);
+      const resMicrosoft = await axios(urlMicrosoft);
+      const resTechnology = await axios(urlTechnology);
+      const resLockheedMartin = await axios(urlLockheedMartin);
+      const resPolitics = await axios(urlPolitics);
+      const resMovies = await axios(urlMovies);
+      const resClothes = await axios(urlClothes);
+      const resTravel = await axios(urlTravel);
+      const resPlayStation = await axios(urlPlayStation);
+      const resNintendo = await axios(urlNintendo);
+      const resXbox = await axios(urlXbox);
+      const resCars = await axios(urlCars);
+      const resWalmart = await axios(urlWalmart);
+      const resAmazon = await axios(urlAmazon);
+      const resStartUp = await axios(urlStartUps);
 
       this.setState({
         data: [
@@ -43,6 +71,20 @@ class App extends React.Component {
           ...resScience.data.articles,
           ...resFood.data.articles,
           ...resShopping.data.articles,
+          ...resMicrosoft.data.articles,
+          ...resTechnology.data.articles,
+          ...resLockheedMartin.data.articles,
+          ...resPolitics.data.articles,
+          ...resMovies.data.articles,
+          ...resClothes.data.articles,
+          ...resTravel.data.articles,
+          ...resPlayStation.data.articles,
+          ...resNintendo.data.articles,
+          ...resXbox.data.articles,
+          ...resCars.data.articles,
+          ...resWalmart.data.articles,
+          ...resAmazon.data.articles,
+          ...resStartUp.data.articles,
         ],
       });
     } catch (e) {
@@ -60,7 +102,7 @@ class App extends React.Component {
       if (d.urlToImage) return d.urlToImage;
     });
     return (
-      <ScrollView style={styles.scrollView}>
+      <ScrollView style={styles.scrollView} removeClippedSubviews={true}>
         {finalData.length > 0 ? (
           finalData.map((card, index) => {
             return (
