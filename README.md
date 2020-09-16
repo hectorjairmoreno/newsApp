@@ -1,1 +1,1 @@
-This is copy righted material made by Hector Moreno Gomez made in 2020.
+This software is open source and free to use and replicate, run with it, make something. 
