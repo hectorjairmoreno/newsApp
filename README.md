@@ -7,23 +7,10 @@ Commands to start application:
 
 Ensure in the command line you are in the directory where package.json exists
 
- expo start --android
- expo start --ios
- 
- or
- 
- npm run android
- npm run ios
+ expo start --android or expo start --ios or or npm run android or npm run ios
  
  
  Commands to make a build for ios or android:
  This will give you an application for the android store or the apple app store.
  
- expo build:android
- expo build:ios
- 
- 
- or
- 
- npm run ba
- npm run bios
+ expo build:android or expo build:ios or or npm run ba or npm run bios
