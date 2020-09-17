@@ -53,6 +53,7 @@ const Title = styled.Text`
   width: 85%;
   height: 100%;
   box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.8);
+  text-align: center;
 `;
 
 const TitleUp = styled.Text`
