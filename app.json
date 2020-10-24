@@ -4,7 +4,7 @@
     "slug": "newsapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/newsapp.png",
+    "icon": "./assets/nwi.png",
     "splash": {
       "image": "./assets/newsappsplash.png",
       "resizeMode": "cover"
@@ -17,7 +17,7 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/newsapp.png"
+      "favicon": "./assets/nwi.png"
     },
     "android": {
       "package": "com.hmg701.newsapp"
