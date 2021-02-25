@@ -1,4 +1,4 @@
-This software is open source and free to use and replicate, run with it, make something. 
+This software is copyrighted.
 
 To start software you will need android studio to test your app in android(ensure you choose an emulator such as Pixel 3 and click play to see the android device).
 To start software you will need Xcode to test your app in iOS.
