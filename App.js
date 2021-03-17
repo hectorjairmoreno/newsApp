@@ -5,106 +5,22 @@ import {
   Linking,
   ActivityIndicator,
 } from "react-native";
-
-import {
-  url,
-  urlFood,
-  urlTechApplePopular,
-  urlSciencePopular,
-  urlTechAndroidPopular,
-  urlShopping,
-  urlMicrosoft,
-  urlTechnology,
-  urlLockheedMartin,
-  urlPolitics,
-  urlMovies,
-  urlClothes,
-  urlTravel,
-  urlPlayStation,
-  urlNintendo,
-  urlXbox,
-  urlCars,
-  urlWalmart,
-  urlAmazon,
-  urlStartUps,
-} from "./url";
-import axios from "axios";
+import data from "./data.json";
 import Card from "./Card";
 import styled from "styled-components";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: [],
-    };
-  }
-
-  async componentDidMount() {
-    try {
-      const res = await axios(url);
-      const resApplePopular = await axios(urlTechApplePopular);
-      const resFood = await axios(urlFood);
-      const resAndroidPopular = await axios(urlTechAndroidPopular);
-      const resScience = await axios(urlSciencePopular);
-      const resShopping = await axios(urlShopping);
-      const resMicrosoft = await axios(urlMicrosoft);
-      const resTechnology = await axios(urlTechnology);
-      const resLockheedMartin = await axios(urlLockheedMartin);
-      const resPolitics = await axios(urlPolitics);
-      const resMovies = await axios(urlMovies);
-      const resClothes = await axios(urlClothes);
-      const resTravel = await axios(urlTravel);
-      const resPlayStation = await axios(urlPlayStation);
-      const resNintendo = await axios(urlNintendo);
-      const resXbox = await axios(urlXbox);
-      const resCars = await axios(urlCars);
-      const resWalmart = await axios(urlWalmart);
-      const resAmazon = await axios(urlAmazon);
-      const resStartUp = await axios(urlStartUps);
-
-      this.setState({
-        data: [
-          ...res.data.articles,
-          ...resApplePopular.data.articles,
-          ...resAndroidPopular.data.articles,
-          ...resScience.data.articles,
-          ...resFood.data.articles,
-          ...resShopping.data.articles,
-          ...resMicrosoft.data.articles,
-          ...resTechnology.data.articles,
-          ...resLockheedMartin.data.articles,
-          ...resPolitics.data.articles,
-          ...resMovies.data.articles,
-          ...resClothes.data.articles,
-          ...resTravel.data.articles,
-          ...resPlayStation.data.articles,
-          ...resNintendo.data.articles,
-          ...resXbox.data.articles,
-          ...resCars.data.articles,
-          ...resWalmart.data.articles,
-          ...resAmazon.data.articles,
-          ...resStartUp.data.articles,
-        ],
-      });
-    } catch (e) {
-      throw new Error(e);
-    }
-  }
 
   openLink = (url) => {
     Linking.openURL(url);
   };
 
   render() {
-    const { data } = this.state;
-    const finalData = data.filter((d) => {
-      if (d.urlToImage) return d.urlToImage;
-    });
+    
     return (
       <ScrollView style={styles.scrollView} removeClippedSubviews={true}>
-        {finalData.length > 0 ? (
-          finalData.map((card, index) => {
+        {data.articles.length > 0 ? (
+          data.articles.map((card, index) => {
             return (
               <Card
                 key={index}
