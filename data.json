@@ -82,19 +82,6 @@
         },
         {
             "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "Saqib Shah",
-            "title": "Amazon UK's first checkout-free Fresh grocery store opens in London",
-            "description": "Amazon has opened its first checkout-free store outside of the US, a Fresh store powered by the \"Just Walk Out\" tech used in US Go stores. The shop, located in the West London borough of Ealing, offers Brits the same automated shopping experience that has bee…",
-            "url": "https://www.engadget.com/amazon-go-store-uk-084721065.html",
-            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/ZsDiRP2PO2MuX8j6KusTaQ--~B/aD0xMDgwO3c9MTkyMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-03/99bcc960-7cc5-11eb-be9f-9b19cfd54abc.cf.jpg",
-            "publishedAt": "2021-03-04T08:47:21Z",
-            "content": "Amazon has opened its first checkout-free store outside of the US, a Fresh store powered by the \"Just Walk Out\" tech used in US Go stores. The shop, located in the West London borough of Ealing, offe… [+1886 chars]"
-        },
-        {
-            "source": {
                 "id": null,
                 "name": "Gizmodo.com"
             },
@@ -118,19 +105,6 @@
             "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/03/image001.png?w=724",
             "publishedAt": "2021-03-03T19:31:05Z",
             "content": "Amazon is rolling out a new experience for its Fire TV platform that puts more focus on subscription-free streaming and other live content. The company today announced several new services are being … [+3691 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "Igor Bonifacic",
-            "title": "Amazon’s IMDb TV comes to more devices, including PS4 and LG Smart TVs",
-            "description": "Amazon is expanding US availability of its free, ad-supported IMDb TV streaming app. As of today, you can access the platform on LG Smart TVs, PlayStation 4, NVIDIA Shield and TiVo Stream 4K. If you own a TV from LG, the app is available on models made betwee…",
-            "url": "https://www.engadget.com/imdb-tv-lg-smart-tvs-ps4-nvidia-shield-tivo-stream-4k-expansion-190013441.html",
-            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/P1wzMPtcEFcyx41Ge1hTKw--~B/aD0xMDAwO3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-03/12611030-8106-11eb-bf9c-e47106a9700f.cf.jpg",
-            "publishedAt": "2021-03-09T19:00:13Z",
-            "content": "Amazon is expanding US availability of its free, ad-supported IMDb TV streaming app. As of today, you can access the platform on LG Smart TVs, PlayStation 4, NVIDIA Shield and TiVo Stream 4K. If you … [+549 chars]"
         },
         {
             "source": {
@@ -196,19 +170,6 @@
             "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/x1z534xkaxvurzs9jvxj.jpg",
             "publishedAt": "2021-03-10T19:30:00Z",
             "content": "A handful of malware-filled Android apps has, once again, been removed from the Google Play Store, and they were all taking advantage of the latest trend in malware design: masquerading as innocent c… [+3580 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "Kris Holt",
-            "title": "Amazon Music lands on Google TV and Android TV devices",
-            "description": "Amazon Music\r\n is now available on Google TV and Android TV\r\n devices. Users in the US, UK, Canada, Brazil, Mexico, Germany, France, Italy, Spain, India, Japan and Australia will be able to stream music from the service through TVs, set-top boxes, game consol…",
-            "url": "https://www.engadget.com/amazon-music-app-google-tv-android-tv-185334346.html",
-            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/BghInCjB43jPQEwy4vZPJw--~B/aD0xMTk0O3c9MjAyMjthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-02/4d0241e0-7798-11eb-af3b-06aa4569ee22.cf.jpg",
-            "publishedAt": "2021-02-25T18:53:34Z",
-            "content": "Amazon Music\r\n is now available on Google TV and Android TV\r\n devices. Users in the US, UK, Canada, Brazil, Mexico, Germany, France, Italy, Spain, India, Japan and Australia will be able to stream mu… [+762 chars]"
         },
         {
             "source": {
@@ -459,19 +420,6 @@
         },
         {
             "source": {
-                "id": "the-verge",
-                "name": "The Verge"
-            },
-            "author": "Kait Sanchez",
-            "title": "Apple Maps now shows COVID-19 vaccination locations",
-            "description": "Apple has added COVID-19 vaccination locations to Apple Maps. Facebook is expanding its COVID Information Center with locations from VaccineFinder, and Google has added a way to message some local pharmacies about vaccines.",
-            "url": "https://www.theverge.com/2021/3/16/22334609/apple-maps-facebook-google-covid-19-vaccine-locations",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/Dxk2Ku0txURewDi3EaKqi3X7JL0=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22357720/acastro_210309_1777_vaccine_0004.jpg",
-            "publishedAt": "2021-03-16T21:16:08Z",
-            "content": "Facebook and Google are also expanding vaccination information\r\nIllustration by Alex Castro / The Verge\r\nApple announced today that Apple Maps has been updated with vaccine locations from VaccineFind… [+1837 chars]"
-        },
-        {
-            "source": {
                 "id": null,
                 "name": "Lifehacker.com"
             },
@@ -482,19 +430,6 @@
             "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/mnnxu7yabssxbd3jvaog.jpg",
             "publishedAt": "2021-03-01T20:00:00Z",
             "content": "Thanks to new economic regulations in France, its now easier to judge the reparability of Apples products anywhere in the world.\r\nStarting in 2022, France will require all companies to provide repara… [+2001 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Lifehacker.com"
-            },
-            "author": "David Murphy",
-            "title": "Apple Is Discontinuing the iMac Pro—Now What?",
-            "description": "That’s right: Apple is done with its current versions of the iMac Pro, and if you want to get your hands on one—spoiler, you don’t, but more on that in a minute—you’ll be stuck shopping for limited configurations “while supplies last.”Read more...",
-            "url": "https://lifehacker.com/apple-is-discontinuing-the-imac-pro-now-what-1846430699",
-            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/a5stk6jfdqmnh00pzvza.png",
-            "publishedAt": "2021-03-09T15:00:00Z",
-            "content": "Thats right: Apple is done with its current versions of the iMac Pro, and if you want to get your hands on onespoiler, you dont, but more on that in a minuteyoull be stuck shopping for limited config… [+3318 chars]"
         },
         {
             "source": {
@@ -1722,19 +1657,6 @@
         {
             "source": {
                 "id": null,
-                "name": "Lifehacker.com"
-            },
-            "author": "David Murphy",
-            "title": "Apple Is Discontinuing the iMac Pro—Now What?",
-            "description": "That’s right: Apple is done with its current versions of the iMac Pro, and if you want to get your hands on one—spoiler, you don’t, but more on that in a minute—you’ll be stuck shopping for limited configurations “while supplies last.”Read more...",
-            "url": "https://lifehacker.com/apple-is-discontinuing-the-imac-pro-now-what-1846430699",
-            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/a5stk6jfdqmnh00pzvza.png",
-            "publishedAt": "2021-03-09T15:00:00Z",
-            "content": "Thats right: Apple is done with its current versions of the iMac Pro, and if you want to get your hands on onespoiler, you dont, but more on that in a minuteyoull be stuck shopping for limited config… [+3318 chars]"
-        },
-        {
-            "source": {
-                "id": null,
                 "name": "New York Times"
             },
             "author": "Amanda Hess, Aleia Murawski and Sam Copeland",
@@ -1965,19 +1887,6 @@
             "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/03/GettyImages-1209675621.jpg?w=701",
             "publishedAt": "2021-03-16T19:58:50Z",
             "content": "Individual solutions to the collective crisis of climate change abound: backup diesel generators, Tesla powerwalls, prepper shelters. However, the infrastructure that our modern civilization relies o… [+4797 chars]"
-        },
-        {
-            "source": {
-                "id": "the-verge",
-                "name": "The Verge"
-            },
-            "author": "Jon Porter",
-            "title": "Amazon’s cashierless tech expands to London with first international store",
-            "description": "Amazon has opened its first cashier-less store outside of the US with a new Amazon Fresh location in London. The store uses the company’s Just Walk Out technology. Billing is handled automatically.",
-            "url": "https://www.theverge.com/2021/3/4/22312970/amazon-fresh-cashier-less-store-uk-go-grocery-london",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/EOdmLeOayp94TCePlgFZsPEOCkY=/0x643:6648x4124/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22344611/Amazon_Fresh_JWO_Signage.jpeg",
-            "publishedAt": "2021-03-04T09:40:21Z",
-            "content": "The Amazon Fresh store will offer groceries and pre-prepared meals\r\nCustomers scan the Amazon app at the stores entrance.\r\nImage: Amazon\r\nAmazon has opened its first cashierless store outside of the … [+2043 chars]"
         },
         {
             "source": {
@@ -2459,19 +2368,6 @@
             "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/rpf04e7qac453jcgf1c7.png",
             "publishedAt": "2021-03-15T17:00:00Z",
             "content": "A staple of 8- and 16-bit consoles, 2D Beat Em Up games are experiencing a quiet renaissance these last few years thanks to titles like Streets of Rage 4, River City Girls, and Fightn Rage. Theres ev… [+4261 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "Igor Bonifacic",
-            "title": "Amazon’s IMDb TV comes to more devices, including PS4 and LG Smart TVs",
-            "description": "Amazon is expanding US availability of its free, ad-supported IMDb TV streaming app. As of today, you can access the platform on LG Smart TVs, PlayStation 4, NVIDIA Shield and TiVo Stream 4K. If you own a TV from LG, the app is available on models made betwee…",
-            "url": "https://www.engadget.com/imdb-tv-lg-smart-tvs-ps4-nvidia-shield-tivo-stream-4k-expansion-190013441.html",
-            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/P1wzMPtcEFcyx41Ge1hTKw--~B/aD0xMDAwO3c9MTYwMDthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-03/12611030-8106-11eb-bf9c-e47106a9700f.cf.jpg",
-            "publishedAt": "2021-03-09T19:00:13Z",
-            "content": "Amazon is expanding US availability of its free, ad-supported IMDb TV streaming app. As of today, you can access the platform on LG Smart TVs, PlayStation 4, NVIDIA Shield and TiVo Stream 4K. If you … [+549 chars]"
         },
         {
             "source": {
