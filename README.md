@@ -1,4 +1,4 @@
-This is a open source, free, take home with you, at no cost, no legal issue to clone example on how to us React Native for iOS and Android Development.
+This is a copyrighted application owned by Software Development Experts LLC.
 
 To start software you will need android studio to test your app in android(ensure you choose an emulator such as Pixel 3 and click play to see the android device).
 To start software you will need Xcode to test your app in iOS.
