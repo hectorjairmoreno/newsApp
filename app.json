@@ -1,12 +1,12 @@
 {
   "expo": {
     "name": "News App International",
-    "slug": "newsapp",
+    "slug": "newsappinternational",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/n.png",
+    "icon": "./assets/logo.png",
     "splash": {
-      "image": "./assets/newsappsplash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "cover"
     },
     "updates": {
@@ -17,10 +17,10 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/n.png"
+      "favicon": "./assets/logo.png"
     },
     "android": {
-      "package": "com.hmg701.newsapp"
+      "package": "com.hmg701.newsappinternational"
     }
   }
 }
