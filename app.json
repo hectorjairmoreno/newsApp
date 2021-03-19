@@ -23,7 +23,8 @@
       "favicon": "./assets/logo.png"
     },
     "android": {
-      "package": "com.hmg701.newsappinternational"
+      "package": "com.hmg701.newsappinternational",
+      "permissions": []
     }
   }
 }
